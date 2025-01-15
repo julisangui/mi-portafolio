@@ -10,7 +10,7 @@ const Hero = () => {
             <a 
               href="/mi-portafolio/Curriculo.pdf" 
               className="boton-cv" 
-              download="Curriculo-JulianSanguineti.pdf"
+              download="Curriculo.pdf"
             >
               Descargar CV <i className="bi bi-download"></i>
             </a>
