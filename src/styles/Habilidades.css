@@ -1,0 +1,107 @@
+.titulo-habilidades {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    font-weight: 100;
+    animation: change linear forwards;
+    animation-timeline: view(block 90% auto);
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    padding: 7px;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+.icono {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.info-habilidad {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info-habilidad h4{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.info-habilidad p{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.otras-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.otras-habilidades p {
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+@keyframes floatInfinite {
+    0% {
+        transform: translateY(5);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5);
+    }
+}
+
+.habilidades .tarjeta:nth-child(odd) {
+    animation: floatInfinite 10s ease-in-out infinite;
+}
+
+.habilidades .tarjeta:nth-child(even) {
+    animation: floatInfinite 5s ease-in-out infinite;
+}
+
+.otras-habilidades p:nth-child(odd) {
+    animation: floatInfinite 10s ease-in-out infinite;
+}
+
+.otras-habilidades p:nth-child(even) {
+    animation: floatInfinite 5s ease-in-out infinite;
+}
