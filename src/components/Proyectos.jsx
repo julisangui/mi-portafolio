@@ -12,7 +12,7 @@ const Proyectos = () => {
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de Turismo Caribeño</h3>
             <p className="descripcion-proyecto">
-              Esta pagina es un SPA donde podrás buscar hoteles en la zona caribeña y solicitar una reserva en el hotel seleccionado, además de ver su localización, servicios y precios.
+              Esta pagina es un SPA de un hotel ficticio caribeño en el cual se podra solicitar una reserva en dicho hotel seleccionado, además de ver sus servicios y precios.
             </p>
             <div className="herramientas-utilizadas">
               <span>HTML</span>
@@ -35,7 +35,7 @@ const Proyectos = () => {
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de actividades de la CABA</h3>
             <p className="descripcion-proyecto">
-              Esta pagina es un SPA que funcionara como una guia turistica sobre las cosas que puedes hacer en la ciudad de Buenos Aires, ver su información y sus actividades.
+              Esta pagina funciona como una guia turistica sobre las cosas que puedes hacer en la ciudad de Buenos Aires, ver su información y sus actividades.
             </p>
             <div className="herramientas-utilizadas">
               <span>HTML</span>
