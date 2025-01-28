@@ -6,10 +6,13 @@ import TypeScript from '../assets/TypeScript.png';
 import ReactLogo from '../assets/React.png';
 import Angular from '../assets/Angular.png';
 import Bootstrap from '../assets/Bootstrap.png';
-import Git from '../assets/Git.png';
+import MaterialUI from '../assets/material-ui.svg';
 import Python from '../assets/Python.png';
 import PHP from '../assets/PHP.png';
+import NodeJs from '../assets/Node-js.svg';
 import MySql from '../assets/MySql.png';
+import MongoDB from '../assets/MongoDB.png';
+import Git from '../assets/Git.png';
 
 const Habilidades = () => {
   return (
@@ -82,9 +85,9 @@ const Habilidades = () => {
         </div>
 
         <div className="tarjeta">
-          <img src={Git} alt="Git" className="icono" />
+          <img src={MaterialUI} alt="MaterialUI" className="icono" />
           <div className="info-habilidad">
-            <h4>Git</h4>
+            <h4>Material UI</h4>
             <p>Intermedio</p>
           </div>
         </div>
@@ -106,9 +109,33 @@ const Habilidades = () => {
         </div>
 
         <div className="tarjeta">
+          <img src={NodeJs} alt="Node.js" className="icono" />
+          <div className="info-habilidad">
+            <h4>Node.js</h4>
+            <p>Basico</p>
+          </div>
+        </div>
+
+        <div className="tarjeta">
           <img src={MySql} alt="MySql" className="icono" />
           <div className="info-habilidad">
             <h4>MySql</h4>
+            <p>Intermedio</p>
+          </div>
+        </div>
+
+        <div className="tarjeta">
+          <img src={MongoDB} alt="MongoDB" className="icono" />
+          <div className="info-habilidad">
+            <h4>MongoDB</h4>
+            <p>Basico</p>
+          </div>
+        </div>
+        
+        <div className="tarjeta">
+          <img src={Git} alt="Git" className="icono" />
+          <div className="info-habilidad">
+            <h4>Git</h4>
             <p>Intermedio</p>
           </div>
         </div>
