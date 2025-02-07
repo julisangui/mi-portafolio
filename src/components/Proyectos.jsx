@@ -8,9 +8,9 @@ const Proyectos = () => {
       <>
         <h2 className="titulo-proyectos" id="Proyectos">Proyectos</h2>
         <div className="tarjeta-proyecto">
-          <img src={tropicalBeach} alt="Imagen de turismo caribeño" className="imagen-proyecto" />
+          <img src={tropicalBeach} className="imagen-proyecto" />
           <div className="info-proyecto">
-            <h3 className="titulo-proyecto">Página de Turismo Caribeño</h3>
+            <h3 className="titulo-proyecto">Página de Resort Caribeño</h3>
             <p className="descripcion-proyecto">
               Esta pagina es un SPA de un hotel ficticio caribeño en el cual se podra solicitar una reserva en dicho hotel seleccionado, además de ver sus servicios y precios.
             </p>
@@ -29,7 +29,7 @@ const Proyectos = () => {
         </div>
 
         <div className="tarjeta-proyecto">
-          <img src={buenosAires} alt="Imagen de resort caribeño" className="imagen-proyecto" />
+          <img src={buenosAires} className="imagen-proyecto" />
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de actividades de la CABA</h3>
             <p className="descripcion-proyecto">
@@ -52,7 +52,7 @@ const Proyectos = () => {
         </div>
 
         <div className="tarjeta-proyecto">
-          <img src={eCommerce} alt="Imagen de turismo caribeño" className="imagen-proyecto" />
+          <img src={eCommerce} className="imagen-proyecto" />
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">e-commerce gamer</h3>
             <p className="descripcion-proyecto">
