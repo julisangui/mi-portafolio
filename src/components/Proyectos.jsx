@@ -12,7 +12,7 @@ const Proyectos = () => {
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de Resort Caribeño</h3>
             <p className="descripcion-proyecto">
-              Esta pagina es un SPA de un hotel ficticio caribeño en el cual se podra solicitar una reserva en dicho hotel seleccionado, además de ver sus servicios y precios.
+              Esta página es un SPA de un hotel ficticio caribeño en el cual se podrá solicitar una reserva ya sea en una habitación o en una villa. Podrás ingresar la cantidad de huéspedes, el tiempo de estancia, y ver las actividades, excursiones y servicios que el hotel ofrece.
             </p>
             <div className="herramientas-utilizadas">
               <span>HTML</span>
@@ -23,7 +23,9 @@ const Proyectos = () => {
               <span>MySQL</span>
             </div>
             <div className="boton-proyecto">
-              <a href="https://julisangui.github.io/Paradisus/" target="_blank" rel="noopener noreferrer" className="btn-enlace"> Ir a la página <i className="bi bi-box-arrow-up-right"></i></a>
+              <a href="https://julisangui.github.io/Paradisus/" target="_blank" rel="noopener noreferrer" className="btn-enlace">
+                Ir a la página <i className="bi bi-box-arrow-up-right"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -33,7 +35,7 @@ const Proyectos = () => {
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de actividades de la CABA</h3>
             <p className="descripcion-proyecto">
-              Esta pagina funciona como una guia turistica sobre las cosas que puedes hacer en la ciudad de Buenos Aires, ver su información y sus actividades.
+              Esta página funciona como una guía turística para todo lo que puedes hacer en la ciudad de Buenos Aires, ver su información y sus actividades.
             </p>
             <div className="herramientas-utilizadas">
               <span>HTML</span>
