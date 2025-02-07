@@ -23,9 +23,7 @@ const Proyectos = () => {
               <span>MySQL</span>
             </div>
             <div className="boton-proyecto">
-              <a href="https://julisangui.github.io/Paradisus/" target="_blank" rel="noopener noreferrer" className="btn-enlace">
-                Ir a la página <i className="bi bi-box-arrow-up-right"></i>
-              </a>
+              <a href="https://julisangui.github.io/Paradisus/" target="_blank" rel="noopener noreferrer" className="btn-enlace"> Ir a la página <i className="bi bi-box-arrow-up-right"></i></a>
             </div>
           </div>
         </div>
