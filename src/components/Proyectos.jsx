@@ -29,7 +29,7 @@ const Proyectos = () => {
         </div>
 
         <div className="tarjeta-proyecto">
-          <img src={buenosAires} alt="Imagen de turismo caribeño" className="imagen-proyecto" />
+          <img src={buenosAires} alt="Imagen de resort caribeño" className="imagen-proyecto" />
           <div className="info-proyecto">
             <h3 className="titulo-proyecto">Página de actividades de la CABA</h3>
             <p className="descripcion-proyecto">
