@@ -4,7 +4,7 @@ import CSS from '../assets/CSS.png';
 import JavaScript from '../assets/JavaScript.png';
 import TypeScript from '../assets/TypeScript.png';
 import ReactLogo from '../assets/React.png';
-import Angular from '../assets/Angular.png';
+import WordPress from '../assets/WordPress.png';
 import Bootstrap from '../assets/Bootstrap.png';
 import MaterialUI from '../assets/material-ui.svg';
 import Python from '../assets/Python.png';
@@ -69,10 +69,10 @@ const Habilidades = () => {
         </div>
 
         <div className="tarjeta">
-          <img src={Angular} alt="Angular" className="icono" />
+          <img src={WordPress} alt="Angular" className="icono" />
           <div className="info-habilidad">
-            <h4>Angular</h4>
-            <p>Básico</p>
+            <h4>WordPress</h4>
+            <p>Intermedio</p>
           </div>
         </div>
 
@@ -142,6 +142,7 @@ const Habilidades = () => {
       </div>
 
       <div className="otras-habilidades">
+        <p>Ingles B2</p>
         <p>Metodologías Ágiles Scrum y Kanban</p>
         <p>Atención al detalle</p>
         <p>Autoconocimiento</p>
