@@ -61,10 +61,7 @@ const Proyectos = () => {
               Un e-commerce que ofrece una amplia gama de productos gamer. El sitio incluye la opción de realizar compras y funcionalidades de filtrado y búsqueda para facilitar la navegación.
             </p>
             <div className="herramientas-utilizadas">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>TypeScript</span>
-              <span>Angular</span>
+              <span>WordPress</span>
               <span>PHP</span>
               <span>MySQL</span>
             </div>
