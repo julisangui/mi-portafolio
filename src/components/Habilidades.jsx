@@ -142,7 +142,7 @@ const Habilidades = () => {
       </div>
 
       <div className="otras-habilidades">
-        <p>Ingles B2</p>
+        <p>Ingles</p>
         <p>Metodologías Ágiles Scrum y Kanban</p>
         <p>Atención al detalle</p>
         <p>Autoconocimiento</p>
