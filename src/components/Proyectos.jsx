@@ -15,12 +15,10 @@ const Proyectos = () => {
               Esta página es un SPA de un hotel ficticio caribeño en el cual se podrá solicitar una reserva ya sea en una habitación o en una villa. Podrás ingresar la cantidad de huéspedes, el tiempo de estancia, y ver las actividades, excursiones y servicios que el hotel ofrece.
             </p>
             <div className="herramientas-utilizadas">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
+              <span>MongoDB</span>
+              <span>Express</span>
               <span>React</span>
               <span>Node.js</span>
-              <span>MySQL</span>
             </div>
             <div className="boton-proyecto">
               <a href="https://julisangui.github.io/Paradisus/" target="_blank" rel="noopener noreferrer" className="btn-enlace">
