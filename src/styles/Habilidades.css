@@ -41,7 +41,7 @@
     padding: 15px;
 }
 
-.info-habilidad h4{
+.info-habilidad h4 {
     color: aliceblue;
     font-size: 15px;
     font-weight: lighter;
@@ -49,7 +49,7 @@
     margin-block-end: 0;
 }
 
-.info-habilidad p{
+.info-habilidad p {
     color: rgb(100, 100, 100);
     font-size: 15px;
     font-weight: lighter;
@@ -79,12 +79,15 @@
     0% {
         transform: translateY(5);
     }
+
     25% {
         transform: translateY(-5px);
     }
+
     75% {
         transform: translateY(5px);
     }
+
     100% {
         transform: translateY(-5);
     }

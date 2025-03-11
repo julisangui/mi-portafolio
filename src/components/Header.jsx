@@ -13,14 +13,29 @@ const Header = () => {
 
   return (
     <>
-      <button id="abrir" className="abrir-menu" onClick={toggleMenu}><i className="bi bi-list"></i></button>
+      <button id="abrir" className="abrir-menu" onClick={toggleMenu}>
+        <i className="bi bi-list"></i>
+      </button>
 
-      <nav className={`barra-navegacion ${menuVisible ? "visible" : ""}`} id="nav">
-        <button className="cerrar-menu" id="cerrar" onClick={toggleMenu}><i className="bi bi-x"></i></button>
-        <a href="#Home" className="menu" onClick={handleLinkClick}>Home</a>
-        <a href="#Habilidades" className="menu" onClick={handleLinkClick}>Habilidades</a>
-        <a href="#Proyectos" className="menu" onClick={handleLinkClick}>Proyectos</a>
-        <a href="#Footer" className="menu" onClick={handleLinkClick}>Footer</a>
+      <nav
+        className={`barra-navegacion ${menuVisible ? "visible" : ""}`}
+        id="nav"
+      >
+        <button className="cerrar-menu" id="cerrar" onClick={toggleMenu}>
+          <i className="bi bi-x"></i>
+        </button>
+        <a href="#Home" className="menu" onClick={handleLinkClick}>
+          Home
+        </a>
+        <a href="#Habilidades" className="menu" onClick={handleLinkClick}>
+          Habilidades
+        </a>
+        <a href="#Proyectos" className="menu" onClick={handleLinkClick}>
+          Proyectos
+        </a>
+        <a href="#Footer" className="menu" onClick={handleLinkClick}>
+          Footer
+        </a>
       </nav>
     </>
   );

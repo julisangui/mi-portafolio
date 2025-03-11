@@ -1,25 +1,26 @@
-import Figma from '../assets/Figma.png';
-import HTML from '../assets/HTML.png';
-import CSS from '../assets/CSS.png';
-import JavaScript from '../assets/JavaScript.png';
-import TypeScript from '../assets/TypeScript.png';
-import ReactLogo from '../assets/React.png';
-import WordPress from '../assets/WordPress.png';
-import Bootstrap from '../assets/Bootstrap.png';
-import MaterialUI from '../assets/material-ui.svg';
-import Python from '../assets/Python.png';
-import PHP from '../assets/PHP.png';
-import NodeJs from '../assets/Node-js.svg';
-import MySql from '../assets/MySql.png';
-import MongoDB from '../assets/MongoDB.png';
-import Git from '../assets/Git.png';
+import Figma from "../assets/Figma.png";
+import HTML from "../assets/HTML.png";
+import CSS from "../assets/CSS.png";
+import JavaScript from "../assets/JavaScript.png";
+import TypeScript from "../assets/TypeScript.png";
+import ReactLogo from "../assets/React.png";
+import WordPress from "../assets/WordPress.png";
+import Bootstrap from "../assets/Bootstrap.png";
+import MaterialUI from "../assets/material-ui.svg";
+import Python from "../assets/Python.png";
+import PHP from "../assets/PHP.png";
+import NodeJs from "../assets/Node-js.svg";
+import MySql from "../assets/MySql.png";
+import MongoDB from "../assets/MongoDB.png";
+import Git from "../assets/Git.png";
 
 const Habilidades = () => {
   return (
     <>
-      <h2 className="titulo-habilidades" id="Habilidades">Habilidades</h2>
+      <h2 className="titulo-habilidades" id="Habilidades">
+        Habilidades
+      </h2>
       <div className="habilidades">
-
         <div className="tarjeta">
           <img src={Figma} alt="Figma" className="icono" />
           <div className="info-habilidad">
@@ -131,7 +132,7 @@ const Habilidades = () => {
             <p>Basico</p>
           </div>
         </div>
-        
+
         <div className="tarjeta">
           <img src={Git} alt="Git" className="icono" />
           <div className="info-habilidad">
