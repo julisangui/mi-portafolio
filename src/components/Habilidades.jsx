@@ -4,7 +4,7 @@ import CSS from "../assets/CSS.png";
 import JavaScript from "../assets/JavaScript.png";
 import TypeScript from "../assets/TypeScript.png";
 import ReactLogo from "../assets/React.png";
-import WordPress from "../assets/WordPress.png";
+import Angular from "../assets/Angular.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import MaterialUI from "../assets/material-ui.svg";
 import Python from "../assets/Python.png";
@@ -70,10 +70,10 @@ const Habilidades = () => {
         </div>
 
         <div className="tarjeta">
-          <img src={WordPress} alt="Angular" className="icono" />
+          <img src={Angular} alt="Angular" className="icono" />
           <div className="info-habilidad">
-            <h4>WordPress</h4>
-            <p>Intermedio</p>
+            <h4>Angular</h4>
+            <p>Basico</p>
           </div>
         </div>
 
