@@ -49,7 +49,7 @@ const Habilidades = () => {
           <img src={JavaScript} alt="JavaScript" className="icono" />
           <div className="info-habilidad">
             <h4>JavaScript</h4>
-            <p>Avanzado</p>
+            <p>Intermedio</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const Habilidades = () => {
           <img src={ReactLogo} alt="React" className="icono" />
           <div className="info-habilidad">
             <h4>React</h4>
-            <p>Avanzado</p>
+            <p>Intermedio</p>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const Habilidades = () => {
           <img src={Angular} alt="Angular" className="icono" />
           <div className="info-habilidad">
             <h4>Angular</h4>
-            <p>Basico</p>
+            <p>Intermedio</p>
           </div>
         </div>
 
