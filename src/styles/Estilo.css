@@ -11,7 +11,30 @@ html {
 body {
     background: radial-gradient(circle, rgb(30, 30, 30) 25%, rgba(0, 0, 0, 1) 75%);
     background-attachment: fixed;
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #00ff6a;
+    --sb-size: 10px;
 }
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color), var(--sb-track-color);
+    }
+}
+
 
 @keyframes show {
     from {
