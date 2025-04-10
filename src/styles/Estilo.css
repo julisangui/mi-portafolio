@@ -35,7 +35,6 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-
 @keyframes show {
     from {
         opacity: 0;

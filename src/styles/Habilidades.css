@@ -1,20 +1,21 @@
 .titulo-habilidades {
     color: aliceblue;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 80px;
-    font-size: 30px;
+    padding-top: 1.5625rem;
+    margin-top: 6.25rem;
+    margin-bottom: 3.75rem;
+    font-size: 1.875rem;
     font-weight: 100;
     animation: change linear forwards;
-    animation-timeline: view(block 90% auto);
+    animation-timeline: view(block 50% auto);
 }
 
 .habilidades {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 80px;
+    gap: 1.25rem;
+    margin-bottom: 3.75rem;
 }
 
 .tarjeta {
@@ -43,7 +44,7 @@
 
 .info-habilidad h4 {
     color: aliceblue;
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: lighter;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -51,7 +52,7 @@
 
 .info-habilidad p {
     color: rgb(100, 100, 100);
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: lighter;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -61,7 +62,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: .3125rem;
     width: 70%;
     margin: 0 auto;
 }
@@ -69,7 +70,7 @@
 .otras-habilidades p {
     background-color: rgb(50, 50, 50);
     color: aliceblue;
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: 100;
     padding: 5px 10px;
     border-radius: 20px;

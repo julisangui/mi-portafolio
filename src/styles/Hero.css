@@ -4,7 +4,7 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 130px;
-    gap: 25px;
+    gap: 1.5625rem;
     color: aliceblue;
     text-align: center;
 }
@@ -15,7 +15,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-block-start: 0px;
@@ -28,7 +28,7 @@
 
 .cargo {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -39,7 +39,7 @@
 }
 
 .presentacion {
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: 100;
     transform: translateY(30px);
     opacity: 0;
@@ -52,7 +52,7 @@
     background: none;
     color: aliceblue;
     text-decoration: none;
-    font-size: 15px;
+    font-size: .9375rem;
     padding: 15px 40px;
     border: none;
     border: 1px solid aliceblue;
@@ -71,21 +71,21 @@
 }
 
 .bi.bi-download {
-    font-size: 15px;
+    font-size: .9375rem;
     background: transparent;
     margin-left: 10px;
 }
 
 @media (max-width: 400px) {
     .hero {
-        margin-top: 100px;
+        margin-top: 6.25rem;
     }
 
     .nombre {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .cargo {
-        font-size: 15px;
+        font-size: .9375rem;
     }
 }

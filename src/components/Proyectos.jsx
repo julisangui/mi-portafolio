@@ -1,4 +1,4 @@
-import tropicalBeach from "../assets/tropical-beach.jpg";
+import paradisus from "../assets/Paradisus.png";
 import eCommerce from "../assets/e-commerce.avif";
 
 const Proyectos = () => {
@@ -8,7 +8,7 @@ const Proyectos = () => {
         Proyectos
       </h2>
       <div className="tarjeta-proyecto">
-        <img src={tropicalBeach} className="imagen-proyecto" />
+        <img src={paradisus} className="imagen-proyecto" />
         <div className="info-proyecto">
           <h3 className="titulo-proyecto">Página de Resort Caribeño</h3>
           <p className="descripcion-proyecto">
