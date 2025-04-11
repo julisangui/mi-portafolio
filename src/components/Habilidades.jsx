@@ -64,7 +64,7 @@ const Habilidades = () => {
         <div className="tarjeta">
           <img src={ReactLogo} alt="React" className="icono" />
           <div className="info-habilidad">
-            <h4>React</h4>
+            <h4>React/React Native</h4>
             <p>Intermedio</p>
           </div>
         </div>

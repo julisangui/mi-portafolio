@@ -7,7 +7,7 @@
     font-size: 1.875rem;
     font-weight: lighter;
     animation: change linear forwards;
-    animation-timeline: view(block 90% auto);
+    animation-timeline: view(block 50% auto);
 }
 
 .tarjeta-proyecto {
@@ -34,7 +34,7 @@
     gap: .9375rem;
     font-weight: lighter;
     color: aliceblue;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .titulo-proyecto {
@@ -93,9 +93,15 @@
     margin-left: .625rem;
 }
 
-@media (max-width: 910px) {
-    .tarjeta-proyecto {
-        width: 400px;
-        margin: 0 auto;
+@media (max-width: 425px) {
+    .tarjeta-proyecto img {
+        height: 200px;
+        width: 320px;
+    }
+
+    .info-proyecto {
+        min-width: 320px;
     }
 }
+
+
