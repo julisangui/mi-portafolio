@@ -7,101 +7,50 @@
     font-size: 1.875rem;
     font-weight: lighter;
     animation: change linear forwards;
-    animation-timeline: view(block 50% auto);
+    animation-timeline: view(block 85% auto);
 }
 
-.tarjeta-proyecto {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: .9375rem;
-    padding: 20px;
-    margin-bottom: 1.25rem;
+.presentacion-proyectos {
+    color: aliceblue;
+    text-align: center;
+    font-size: .9375rem;
+    font-weight: 100;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 50px;
     animation: change linear forwards;
-    animation-timeline: view(block 90% auto);
+    animation-timeline: view(block 85% auto);
 }
 
-.tarjeta-proyecto img {
-    height: 250px;
-    width: 400px;
+.boton-pagina-proyectos {
+    display: flex;
+    border: 0;
+    background-image: linear-gradient(150deg, rgb(0, 255, 106) 20%, rgb(0, 255, 255) 60%);
     border-radius: 10px;
-    object-fit: fill;
-}
-
-.info-proyecto {
-    display: flex;
-    flex-direction: column;
-    gap: .9375rem;
-    font-weight: lighter;
     color: aliceblue;
-    max-width: 400px;
+    padding: 4px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .3s;
+    animation: change linear forwards;
+    animation-timeline: view(block 85% auto);
 }
 
-.titulo-proyecto {
-    font-size: 1.25rem;
-    font-weight: bolder;
-    margin-bottom: 0rem;
-}
-
-.descripcion-proyecto {
-    font-size: .9375rem;
-    margin-bottom: 0rem;
-}
-
-.herramientas-utilizadas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-}
-
-.herramientas-utilizadas span {
-    background-color: rgb(50, 50, 50);
+.boton-pagina-proyectos a {
+    background-color: rgb(20, 20, 20);
     color: aliceblue;
-    font-size: .9375rem;
-    font-weight: lighter;
-    padding: 5px 10px;
-    border-radius: 20px;
-}
-
-.boton-proyecto {
-    margin-top: .625rem;
-}
-
-.btn-enlace {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(50, 50, 50);
-    color: aliceblue;
-    font-size: .9375rem;
-    font-weight: lighter;
-    padding: 10px 20px;
-    border-radius: 5px;
     text-decoration: none;
-    transition: 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
 }
 
-.btn-enlace:hover {
-    color: #010101;
-    background-color: #00ffff;
-    box-shadow: 0 0 20px #00ffff, 0 0 20px #00ffff, 0 0 20px #00ffff;
+.boton-pagina-proyectos a:hover {
+    background: none;
 }
 
-.bi.bi-box-arrow-up-right {
-    font-size: .75rem;
-    margin-left: .625rem;
+.boton-pagina-proyectos:active {
+    transform: scale(0.9);
 }
-
-@media (max-width: 425px) {
-    .tarjeta-proyecto img {
-        height: 200px;
-        width: 320px;
-    }
-
-    .info-proyecto {
-        min-width: 320px;
-    }
-}
-
-
