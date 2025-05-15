@@ -8,7 +8,7 @@ import TypeScript from "../assets/TypeScript.png";
 import ReactLogo from "../assets/React.png";
 import Angular from "../assets/Angular.png";
 import Bootstrap from "../assets/Bootstrap.png";
-import MaterialUI from "../assets/Material-ui.svg";
+import MaterialUI from "../assets//material-ui.svg";
 import Python from "../assets/Python.png";
 import PHP from "../assets/PHP.png";
 import NodeJs from "../assets/Node-js.svg";
