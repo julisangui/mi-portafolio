@@ -12,7 +12,7 @@ import MaterialUI from "../assets//material-ui.svg";
 import Python from "../assets/Python.png";
 import PHP from "../assets/PHP.png";
 import NodeJs from "../assets/Node-js.svg";
-import Express from "../assets/Express-js.png";
+import Express from "../assets/express-js.png";
 import MySql from "../assets/MySql.png";
 import MongoDB from "../assets/MongoDB.png";
 import Git from "../assets/Git.png";
