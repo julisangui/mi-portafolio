@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <div className="hero" id="Hero">
+      <div className="hero" id="Inicio">
         <h1 className="nombre">Julian Sanguineti</h1>
         <h3 className="cargo">Desarrollador de software</h3>
         <p className="presentacion">

@@ -1,10 +1,20 @@
 .barra-navegacion {
     display: flex;
-    margin: 0 auto;
-    padding: 0.9375rem;
-    margin-top: 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 35px;
     width: 70%;
+    margin: 0 auto;
     opacity: 0;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: background-color 0.5s;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
@@ -26,10 +36,21 @@
     display: none;
     font-size: 1.875rem;
     font-weight: lighter;
-    color: white;
+    color: aliceblue;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+@media (min-width: 501px) {
+  .barra-navegacion.sin-background {
+    background-color: transparent;
+  }
+
+  .barra-navegacion.con-background {
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+  }
 }
 
 @media (max-width: 500px) {
@@ -39,11 +60,16 @@
         margin-top: 3.125rem;
     }
 
+    .bi-list::before {
+        background-color: rgb(40, 40, 40);
+        padding: 15px;
+        border-radius: 50%;
+    }
 
     .abrir-menu {
         display: block;
         margin: 0 auto;
-        z-index: 100;
+        z-index: 5;
         opacity: 0;
         animation: fadeIn 1s ease-in-out forwards;
     }
@@ -51,40 +77,50 @@
     .cerrar-menu {
         display: block;
         position: absolute;
-        top: 1rem;
-        right: 1rem;
-        z-index: 100;
+        top: 15px;
+        right: 15px;
+        z-index: 2;
     }
 
     .barra-navegacion {
-        background-color: rgb(25, 25, 25);
+        background-color: rgb(40, 40, 40);
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
+        left: 0;
         width: 100%;
-        margin-top: 0px;
+        height: 100vh;
+        border-radius: 0;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         justify-content: center;
-        padding: 2rem;
-        gap: 1.5rem;
-        opacity: 1;
+        padding: 30px;
+        gap: 25px;
         transform: translateX(100%);
-        transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease;
-        z-index: 100;
+        transition: transform 0.5s ease;
+        opacity: 1;
     }
 
     .barra-navegacion.visible {
-        opacity: 1;
-        background-color: rgb(25, 25, 25);
         transform: translateX(0);
-        z-index: 100;
+    }
+
+    .cerrar-menu {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 3;
+        background: none;
+        border: none;
+        font-size: 1.875rem;
+        color: aliceblue;
+        cursor: pointer;
     }
 
     .menu {
-        font-size: .9375rem;
-        color: #f5f5f5;
+        font-size: 1.25rem;
+        color: aliceblue;
     }
 
     .menu:hover {

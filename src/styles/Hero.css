@@ -1,12 +1,15 @@
 .hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 130px;
-    gap: 1.5625rem;
-    color: aliceblue;
+    padding-top: 100px;
+    gap: 25px;
+    color: #f0f8ff;
     text-align: center;
+    min-height: 100vh;
+    height: auto;
 }
 
 .nombre {
@@ -76,9 +79,10 @@
     margin-left: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+
     .hero {
-        margin-top: 6.25rem;
+        padding-top: 0;
     }
 
     .nombre {
@@ -87,5 +91,9 @@
 
     .cargo {
         font-size: .9375rem;
+    }
+
+    .presentacion {
+        width: 90%;
     }
 }

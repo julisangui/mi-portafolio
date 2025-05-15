@@ -1,13 +1,17 @@
+.contenedor-proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
 .titulo-proyectos {
     color: aliceblue;
     text-align: center;
-    padding-top: 1.5625rem;
-    margin-top: 6.25rem;
-    margin-bottom: 3.125rem;
+    padding-top: 150px;
+    margin-bottom: 50px;
     font-size: 1.875rem;
     font-weight: lighter;
-    animation: change linear forwards;
-    animation-timeline: view(block 85% auto);
 }
 
 .presentacion-proyectos {
@@ -18,8 +22,6 @@
     width: 55%;
     margin: 0 auto;
     margin-bottom: 50px;
-    animation: change linear forwards;
-    animation-timeline: view(block 85% auto);
 }
 
 .boton-pagina-proyectos {
@@ -32,8 +34,6 @@
     margin: 0 auto;
     cursor: pointer;
     transition: .3s;
-    animation: change linear forwards;
-    animation-timeline: view(block 85% auto);
 }
 
 .boton-pagina-proyectos a {
