@@ -50,7 +50,3 @@
 .boton-pagina-proyectos a:hover {
     background: none;
 }
-
-.boton-pagina-proyectos:active {
-    transform: scale(0.9);
-}

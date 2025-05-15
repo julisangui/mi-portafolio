@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 const Proyectos = () => {
+
   return (
     <div className="contenedor-proyectos">
       <motion.h2
@@ -9,11 +10,10 @@ const Proyectos = () => {
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 2 }}
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true, amount: 0.9 }}
       >
         Proyectos
       </motion.h2>
-
 
       <motion.p
         className="presentacion-proyectos"
@@ -29,22 +29,17 @@ const Proyectos = () => {
         de aprender: construyendo, equivocándome y mejorando en cada iteración.
       </motion.p>
 
-      <motion.button
+      <motion.div
         className="boton-pagina-proyectos"
         initial={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1, ease: "easeOut" }}
+        transition={{ duration: 0.1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.9 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
       >
-        <a
-          href="https://julisangui.github.io/pagina-principal-de-proyectos/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ¡ver proyectos!
-        </a>
-      </motion.button>
-
+        <a href="https://julisangui.github.io/pagina-principal-de-proyectos/" target="_blank">¡ver proyectos!</a>
+      </motion.div>
     </div>
   );
 };

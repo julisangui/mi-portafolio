@@ -75,7 +75,7 @@ const Habilidades = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.9 }}
       >
         {habilidades.map((habilidad) => (
           <motion.div key={habilidad.nombre} className="tarjeta" variants={item}>
@@ -93,7 +93,7 @@ const Habilidades = () => {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.9 }}
         >
         
         {[
