@@ -5,16 +5,16 @@ import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
 import JavaScript from "../assets/JavaScript.png";
 import TypeScript from "../assets/TypeScript.png";
-import ReactLogo from "../assets/React.png";
-import Angular from "../assets/Angular.png";
+import React from "../assets/React.png";
+import Nextjs from "../assets/Next-js.png";
 import Bootstrap from "../assets/Bootstrap.png";
-import MaterialUI from "../assets//material-ui.svg";
+import TailwindCSS from "../assets/Tailwind-css.png";
+import ShadcnUI from "../assets//Shadcn-ui.png";
+import FramerMotion from "../assets//Framer-motion.png";
 import Python from "../assets/Python.png";
-import PHP from "../assets/PHP.png";
 import NodeJs from "../assets/Node-js.svg";
 import Express from "../assets/express-js.png";
 import MySql from "../assets/MySql.png";
-import MongoDB from "../assets/MongoDB.png";
 import Git from "../assets/Git.png";
 
 const habilidades = [
@@ -23,16 +23,16 @@ const habilidades = [
   { nombre: "CSS", nivel: "Avanzado", icono: CSS },
   { nombre: "JavaScript", nivel: "Intermedio", icono: JavaScript },
   { nombre: "TypeScript", nivel: "Intermedio", icono: TypeScript },
-  { nombre: "React", nivel: "Intermedio", icono: ReactLogo },
-  { nombre: "Angular", nivel: "Intermedio", icono: Angular },
+  { nombre: "React", nivel: "Intermedio", icono: React },
+  { nombre: "Next.js", nivel: "Intermedio", icono: Nextjs },
   { nombre: "Bootstrap", nivel: "Intermedio", icono: Bootstrap },
-  { nombre: "Material UI", nivel: "Intermedio", icono: MaterialUI },
+  { nombre: "Tailwind CSS", nivel: "Intermedio", icono: TailwindCSS },
+  { nombre: "Shadcn/ui", nivel: "Intermedio", icono: ShadcnUI },
+  { nombre: "Framer Motion", nivel: "Intermedio", icono: FramerMotion },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
-  { nombre: "PHP", nivel: "Intermedio", icono: PHP },
   { nombre: "Node.js", nivel: "Básico", icono: NodeJs },
   { nombre: "Express.js", nivel: "Básico", icono: Express },
   { nombre: "MySql", nivel: "Intermedio", icono: MySql },
-  { nombre: "MongoDB", nivel: "Básico", icono: MongoDB },
   { nombre: "Git", nivel: "Intermedio", icono: Git },
 ];
 
