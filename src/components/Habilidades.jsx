@@ -10,7 +10,7 @@ import Nextjs from "../assets/Next-js.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import TailwindCSS from "../assets/Tailwind-css.png";
 import ShadcnUI from "../assets//Shadcn-ui.png";
-import FramerMotion from "../assets//Framer-motion.png";
+import FramerMotion from "../assets//framer-motion.png";
 import Python from "../assets/Python.png";
 import NodeJs from "../assets/Node-js.svg";
 import Express from "../assets/express-js.png";
