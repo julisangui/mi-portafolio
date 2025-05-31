@@ -19,7 +19,7 @@
     text-align: center;
     font-size: .9375rem;
     font-weight: 100;
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -49,10 +49,4 @@
 
 .boton-pagina-proyectos a:hover {
     background: none;
-}
-
-@media(max-width: 500px){
-    .presentacion-proyectos {
-        width: 85%;
-    }
 }
