@@ -1,4 +1,6 @@
-import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import Figma from "../assets/Figma.png";
 import HTML from "../assets/HTML.png";
@@ -8,9 +10,7 @@ import TypeScript from "../assets/TypeScript.png";
 import React from "../assets/React.png";
 import Nextjs from "../assets/Next-js.png";
 import Bootstrap from "../assets/Bootstrap.png";
-import TailwindCSS from "../assets/Tailwind-css.png";
-import ShadcnUI from "../assets//Shadcn-ui.png";
-import FramerMotion from "../assets//framer-motion.png";
+import ShadcnUI from "../assets/Shadcn-ui.png";
 import Python from "../assets/Python.png";
 import NodeJs from "../assets/Node-js.svg";
 import Express from "../assets/express-js.png";
@@ -26,9 +26,7 @@ const habilidades = [
   { nombre: "React", nivel: "Intermedio", icono: React },
   { nombre: "Next.js", nivel: "Intermedio", icono: Nextjs },
   { nombre: "Bootstrap", nivel: "Intermedio", icono: Bootstrap },
-  { nombre: "Tailwind CSS", nivel: "Intermedio", icono: TailwindCSS },
   { nombre: "Shadcn/ui", nivel: "Intermedio", icono: ShadcnUI },
-  { nombre: "Framer Motion", nivel: "Intermedio", icono: FramerMotion },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
   { nombre: "Node.js", nivel: "Básico", icono: NodeJs },
   { nombre: "Express.js", nivel: "Básico", icono: Express },
@@ -36,87 +34,73 @@ const habilidades = [
   { nombre: "Git", nivel: "Intermedio", icono: Git },
 ];
 
-const container = {
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren: 0.25,
-    },
-  },
-};
-
-const item = {
-  hidden: { opacity: 0, y: -30 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
-    },
-  },
-};
+const habilidadesBlandas = [
+  "Inglés",
+  "Metodologías Ágiles",
+  "Atención al detalle",
+  "Autoconocimiento",
+  "Autodesarrollo",
+  "Comunicación",
+  "Creatividad e innovación",
+  "Gestión del tiempo",
+  "Liderazgo",
+  "Pensamiento analítico y crítico",
+  "Perseverancia",
+  "Proactividad",
+  "Resolución de problemas",
+  "Trabajo en equipo",
+];
 
 const Habilidades = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-out",
+    });
+  }, []);
+
   return (
     <div id="Habilidades">
-      <motion.h2
+      <h2
+        data-aos="fade-right"
+        data-aos-offset="150"
         className="titulo-habilidades"
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2 }}
-        viewport={{ once: true, amount: 0.9 }}
       >
         Habilidades
-      </motion.h2>
+      </h2>
 
-      <motion.div
-        className="contenedor-habilidades"
-        variants={container}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.9 }}
-      >
-        {habilidades.map((habilidad) => (
-          <motion.div key={habilidad.nombre} className="tarjeta" variants={item}>
-            <img src={habilidad.icono} alt={habilidad.nombre} className="icono" />
+      <div className="contenedor-habilidades">
+        {habilidades.map((habilidad, index) => (
+          <div
+            data-aos="zoom-in"
+            data-aos-offset="50"
+            data-aos-delay={index * 50}
+            key={habilidad.nombre}
+            className="tarjeta"
+          >
+            <img
+              src={habilidad.icono}
+              alt={habilidad.nombre}
+              className="icono"
+            />
             <div className="info-habilidad">
               <h4>{habilidad.nombre}</h4>
               <p>{habilidad.nivel}</p>
             </div>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
 
-      <motion.div
+      <div 
+        data-aos="fade-right"
+        data-aos-offset="10"
         className="otras-habilidades"
-        variants={container}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.9 }}
-        >
-        
-        {[
-          "Inglés",
-          "Metodologías Ágiles Scrum y Kanban",
-          "Atención al detalle",
-          "Autoconocimiento",
-          "Autodesarrollo",
-          "Comunicación",
-          "Creatividad e innovación",
-          "Gestión del tiempo",
-          "Liderazgo",
-          "Pensamiento analítico y crítico",
-          "Perseverancia",
-          "Proactividad",
-          "Resolución de problemas",
-          "Trabajo en equipo",
-        ].map((habilidadBlanda, index) => (
-          <motion.p key={index} variants={item}>
-            {habilidadBlanda}
-          </motion.p>
+      >
+        {habilidadesBlandas.map((habilidadBlanda, index) => (
+          <p key={index}>{habilidadBlanda}</p>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 };

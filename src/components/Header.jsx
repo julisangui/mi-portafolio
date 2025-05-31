@@ -40,7 +40,7 @@ const Header = () => {
       <nav className={`barra-navegacion
         ${menuVisible ? "visible" : ""}
         ${navbarEstatico ? "con-background" : "sin-background"}`
-        }>
+      }>
 
         <button className="cerrar-menu" id="cerrar" onClick={abrirCerrarMenu}><i className="bi bi-x"></i></button>
         <a href="#Inicio" className="menu" onClick={clickEnlace}>Inicio</a>

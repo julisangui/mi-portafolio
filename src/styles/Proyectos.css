@@ -50,3 +50,9 @@
 .boton-pagina-proyectos a:hover {
     background: none;
 }
+
+@media(max-width: 500px){
+    .presentacion-proyectos {
+        width: 85%;
+    }
+}

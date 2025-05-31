@@ -39,18 +39,17 @@
     color: aliceblue;
     background: none;
     border: none;
-    cursor: pointer;
 }
 
-@media (min-width: 501px) {
-  .barra-navegacion.sin-background {
-    background-color: transparent;
-  }
+@media (min-width: 500px) {
+    .barra-navegacion.sin-background {
+        background-color: transparent;
+    }
 
-  .barra-navegacion.con-background {
-    background-color: rgb(40, 40, 40);
-    color: aliceblue;
-  }
+    .barra-navegacion.con-background {
+        background-color: rgb(40, 40, 40);
+        color: aliceblue;
+    }
 }
 
 @media (max-width: 500px) {
@@ -66,6 +65,12 @@
         border-radius: 50%;
     }
 
+    .bi.bi-x::before {
+        background-color: rgb(10, 10, 10);
+        border-radius: 50%;
+        padding: 5px;
+    }
+
     .abrir-menu {
         display: block;
         margin: 0 auto;
@@ -77,13 +82,18 @@
     .cerrar-menu {
         display: block;
         position: absolute;
-        top: 15px;
-        right: 15px;
+        top: 25px;
+        right: 25px;
         z-index: 2;
+        background: none;
+        border: none;
+        font-size: 1.875rem;
+        color: aliceblue;
+        cursor: pointer;
     }
 
     .barra-navegacion {
-        background-color: rgb(40, 40, 40);
+        background-color: rgb(30, 30, 30);
         position: fixed;
         top: 0;
         right: 0;
@@ -104,18 +114,6 @@
 
     .barra-navegacion.visible {
         transform: translateX(0);
-    }
-
-    .cerrar-menu {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        z-index: 3;
-        background: none;
-        border: none;
-        font-size: 1.875rem;
-        color: aliceblue;
-        cursor: pointer;
     }
 
     .menu {
