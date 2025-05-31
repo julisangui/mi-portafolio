@@ -93,7 +93,7 @@ const Habilidades = () => {
       </div>
 
       <div 
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="10"
         className="otras-habilidades"
       >

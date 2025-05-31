@@ -16,12 +16,13 @@ const Proyectos = () => {
       <h2
         data-aos="fade-right"
         data-aos-offset="300"
-        className="titulo-proyectos" id="Proyectos"
+        className="titulo-proyectos"
+        id="Proyectos"
       >
         Proyectos
       </h2>
 
-      <p 
+      <p
         data-aos="fade-left"
         data-aos-offset="150"
         className="presentacion-proyectos"
@@ -40,7 +41,13 @@ const Proyectos = () => {
         data-aos-offset="150"
         className="boton-pagina-proyectos"
       >
-        <a href="https://julisangui.github.io/pagina-principal-de-proyectos/" target="_blank">¡ver proyectos!</a>
+        <a
+          href="https://julisangui.github.io/pagina-principal-de-proyectos/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ¡ver proyectos!
+        </a>
       </div>
     </div>
   );

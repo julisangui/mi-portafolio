@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     --sb-track-color: #232E33;
     --sb-thumb-color: #00ff6a;
     --sb-size: 10px;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {

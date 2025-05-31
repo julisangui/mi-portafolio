@@ -1,52 +1,52 @@
 .contenedor-proyectos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .titulo-proyectos {
-    color: aliceblue;
-    text-align: center;
-    padding-top: 150px;
-    margin-bottom: 50px;
-    font-size: 1.875rem;
-    font-weight: lighter;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+  font-size: 1.875rem;
+  font-weight: lighter;
 }
 
 .presentacion-proyectos {
-    color: aliceblue;
-    text-align: center;
-    font-size: .9375rem;
-    font-weight: 100;
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 100;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto 50px;
 }
 
 .boton-pagina-proyectos {
-    display: flex;
-    border: 0;
-    background-image: linear-gradient(150deg, rgb(0, 255, 106) 20%, rgb(0, 255, 255) 60%);
-    border-radius: 10px;
-    color: aliceblue;
-    padding: 4px;
-    margin: 0 auto;
-    cursor: pointer;
-    transition: .3s;
+  display: flex;
+  border: 0;
+  background-image: linear-gradient(150deg, rgb(0, 255, 106) 20%, rgb(0, 255, 255) 60%);
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 4px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .boton-pagina-proyectos a {
-    background-color: rgb(20, 20, 20);
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 16px 24px;
-    border-radius: 6px;
-    transition: .3s;
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
 }
 
 .boton-pagina-proyectos a:hover {
-    background: none;
+  background: none;
 }
