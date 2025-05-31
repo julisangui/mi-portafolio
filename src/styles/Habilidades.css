@@ -1,13 +1,22 @@
+.contenedor-habilidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+}
+
 .titulo-habilidades {
   color: aliceblue;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 35px;
   margin-bottom: 60px;
   font-size: 1.875rem;
   font-weight: 100;
 }
 
-.contenedor-habilidades {
+.habilidades {
   display: flex;
   justify-content: center;
   margin: 0 auto;

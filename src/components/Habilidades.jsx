@@ -61,7 +61,7 @@ const Habilidades = () => {
   }, []);
 
   return (
-    <div id="Habilidades">
+    <div className="contenedor-habilidades" id="Habilidades">
       <h2
         data-aos="fade-right"
         data-aos-offset="150"
@@ -70,7 +70,7 @@ const Habilidades = () => {
         Habilidades
       </h2>
 
-      <div className="contenedor-habilidades">
+      <div className="habilidades">
         {habilidades.map((habilidad, index) => (
           <div
             data-aos="zoom-in"

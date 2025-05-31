@@ -12,12 +12,12 @@ const Proyectos = () => {
   }, []);
 
   return (
-    <div className="contenedor-proyectos">
+    <div className="contenedor-proyectos" id="Proyectos"
+>
       <h2
         data-aos="fade-right"
         data-aos-offset="300"
         className="titulo-proyectos"
-        id="Proyectos"
       >
         Proyectos
       </h2>

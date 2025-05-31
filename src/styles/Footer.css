@@ -6,10 +6,8 @@
     text-align: center;
     margin: 0 auto;
     gap: 1.25rem;
-    margin-top: 9.375rem;
-    margin-bottom: 1.25rem;
-    animation: change linear forwards;
-    animation-timeline: view(block 100% auto);
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -22,14 +20,14 @@ hr {
     color: aliceblue;
     font-size: .9375rem;
     font-weight: lighter;
-    margin-top: .625rem;
+    margin-top: 10px;
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.875rem;
+    gap: 30px;
 }
 
 .footer-links a {
