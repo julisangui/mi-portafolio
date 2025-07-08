@@ -9,6 +9,7 @@ import JavaScript from "../assets/JavaScript.png";
 import TypeScript from "../assets/TypeScript.png";
 import React from "../assets/React.png";
 import Nextjs from "../assets/Next-js.png";
+import Tailwindcss from "../assets/Tailwind-CSS.png"
 import Bootstrap from "../assets/Bootstrap.png";
 import ShadcnUI from "../assets/Shadcn-ui.png";
 import Python from "../assets/Python.png";
@@ -25,6 +26,7 @@ const habilidades = [
   { nombre: "TypeScript", nivel: "Intermedio", icono: TypeScript },
   { nombre: "React", nivel: "Intermedio", icono: React },
   { nombre: "Next.js", nivel: "Intermedio", icono: Nextjs },
+  { nombre: "Tailwind CSS", nivel: "Intermedio", icono: Tailwindcss },
   { nombre: "Bootstrap", nivel: "Intermedio", icono: Bootstrap },
   { nombre: "Shadcn/ui", nivel: "Intermedio", icono: ShadcnUI },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
@@ -35,20 +37,17 @@ const habilidades = [
 ];
 
 const habilidadesBlandas = [
-  "Inglés",
-  "Metodologías Ágiles",
-  "Atención al detalle",
-  "Autoconocimiento",
-  "Autodesarrollo",
-  "Comunicación",
-  "Creatividad e innovación",
-  "Gestión del tiempo",
-  "Liderazgo",
-  "Pensamiento analítico y crítico",
-  "Perseverancia",
-  "Proactividad",
-  "Resolución de problemas",
-  "Trabajo en equipo",
+"Inglés (intermedio)",
+"Diseño UX/UI",
+"Pruebas de software (QA Testing)",
+"Servicio técnico y soporte IT",
+"Metodologías ágiles (Scrum, Kanban)",
+"Adaptabilidad en entornos dinámicos",
+"Trabajo en equipo y comunicación efectiva",
+"Pensamiento crítico y analítico",
+"Atención al detalle",
+"Creatividad e innovación",
+"Proactividad y autodesarrollo continuo"
 ];
 
 const Habilidades = () => {
