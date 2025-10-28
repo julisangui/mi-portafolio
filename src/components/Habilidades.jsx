@@ -9,11 +9,7 @@ import JavaScript from "../assets/JavaScript.png";
 import TypeScript from "../assets/TypeScript.png";
 import React from "../assets/React.png";
 import Nextjs from "../assets/Next-js.png";
-import Tailwindcss from "../assets/Tailwind-CSS.png"
-import Bootstrap from "../assets/Bootstrap.png";
-import ShadcnUI from "../assets/Shadcn-ui.png";
 import Python from "../assets/Python.png";
-import NodeJs from "../assets/Node-js.svg";
 import Express from "../assets/express-js.png";
 import MySql from "../assets/MySql.png";
 import Git from "../assets/Git.png";
@@ -22,15 +18,12 @@ const habilidades = [
   { nombre: "Figma", nivel: "Intermedio", icono: Figma },
   { nombre: "HTML", nivel: "Avanzado", icono: HTML },
   { nombre: "CSS", nivel: "Avanzado", icono: CSS },
-  { nombre: "JavaScript", nivel: "Intermedio", icono: JavaScript },
+  { nombre: "JavaScript", nivel: "Avanzado", icono: JavaScript },
   { nombre: "TypeScript", nivel: "Intermedio", icono: TypeScript },
   { nombre: "React", nivel: "Intermedio", icono: React },
   { nombre: "Next.js", nivel: "Intermedio", icono: Nextjs },
-  { nombre: "Tailwind CSS", nivel: "Intermedio", icono: Tailwindcss },
-  { nombre: "Bootstrap", nivel: "Intermedio", icono: Bootstrap },
-  { nombre: "Shadcn/ui", nivel: "Intermedio", icono: ShadcnUI },
+  { nombre: "React Native", nivel: "Intermedio", icono: React },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
-  { nombre: "Node.js", nivel: "Básico", icono: NodeJs },
   { nombre: "Express.js", nivel: "Básico", icono: Express },
   { nombre: "MySql", nivel: "Intermedio", icono: MySql },
   { nombre: "Git", nivel: "Intermedio", icono: Git },
@@ -38,14 +31,12 @@ const habilidades = [
 
 const habilidadesBlandas = [
 "Inglés (intermedio)",
+"Desarrollo web/móvil",
 "Diseño UX/UI",
 "Pruebas de software (QA Testing)",
-"Servicio técnico y soporte IT",
+"Servicio técnico",
 "Metodologías ágiles (Scrum, Kanban)",
-"Adaptabilidad en entornos dinámicos",
-"Trabajo en equipo y comunicación efectiva",
-"Pensamiento crítico y analítico",
-"Atención al detalle",
+"Trabajo en equipo y comunicación",
 "Creatividad e innovación",
 "Proactividad y autodesarrollo continuo"
 ];
