@@ -34,6 +34,7 @@ const habilidadesBlandas = [
 "Desarrollo web/móvil",
 "Diseño UX/UI",
 "Pruebas de software (QA Testing)",
+"Microsoft Office",
 "Servicio técnico",
 "Metodologías ágiles (Scrum, Kanban)",
 "Trabajo en equipo y comunicación",
