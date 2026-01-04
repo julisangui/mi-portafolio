@@ -25,8 +25,8 @@ const habilidades = [
   { nombre: "React Native", nivel: "Intermedio", icono: React },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
   { nombre: "Express.js", nivel: "Básico", icono: Express },
-  { nombre: "MySql", nivel: "Intermedio", icono: MySql },
-  { nombre: "Git", nivel: "Intermedio", icono: Git },
+  { nombre: "MySql", nivel: "Avanzado", icono: MySql },
+  { nombre: "Git", nivel: "Avanzado", icono: Git },
 ];
 
 const habilidadesBlandas = [
@@ -35,6 +35,7 @@ const habilidadesBlandas = [
 "Diseño UX/UI",
 "Pruebas de software (QA Testing)",
 "Microsoft Office",
+"Documentación técnica",
 "Servicio técnico",
 "Metodologías ágiles (Scrum, Kanban)",
 "Trabajo en equipo y comunicación",
