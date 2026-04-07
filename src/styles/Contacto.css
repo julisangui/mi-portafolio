@@ -5,22 +5,14 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    gap: 1.25rem;
+    gap: 1.875rem;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
-hr {
-    width: 90%;
-    border: 1px solid aliceblue;
-    margin: 10px 0;
-}
-
-.copyright {
-    color: aliceblue;
-    font-size: .9375rem;
-    font-weight: lighter;
-    margin-top: 10px;
+.mensaje-final {
+    font-size: 1rem;
+    color: #808080;
 }
 
 .footer-links {
@@ -30,12 +22,22 @@ hr {
     gap: 30px;
 }
 
-.footer-links a {
-    color: #f1f1f1;
+.footer-links svg {
+    color: aliceblue;
     transition: color 0.5s ease;
-    font-size: 1.875rem;
+    font-size: 2rem;
 }
 
-.footer-links a:hover {
+.footer-links svg:hover {
     color: #00ff6a;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #808080;
+}
+
+.copyright {
+    color: #808080;
+    font-size: 0.75rem;
 }

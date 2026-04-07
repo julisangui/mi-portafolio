@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Figma from "../assets/Figma.png";
 import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
+import SCSS from "../assets/SCSS.png";
 import JavaScript from "../assets/JavaScript.png";
 import TypeScript from "../assets/TypeScript.png";
 import React from "../assets/React.png";
@@ -15,9 +16,10 @@ import MySql from "../assets/MySql.png";
 import Git from "../assets/Git.png";
 
 const habilidades = [
-  { nombre: "Figma", nivel: "Intermedio", icono: Figma },
+  { nombre: "Figma", nivel: "Avanzado", icono: Figma },
   { nombre: "HTML", nivel: "Avanzado", icono: HTML },
   { nombre: "CSS", nivel: "Avanzado", icono: CSS },
+  { nombre: "Sass/SCSS", nivel: "Avanzado", icono: SCSS },
   { nombre: "JavaScript", nivel: "Avanzado", icono: JavaScript },
   { nombre: "TypeScript", nivel: "Intermedio", icono: TypeScript },
   { nombre: "React", nivel: "Intermedio", icono: React },
@@ -69,7 +71,7 @@ const Habilidades = () => {
             data-aos-offset="50"
             data-aos-delay={index * 50}
             key={habilidad.nombre}
-            className="tarjeta"
+            className="tarjeta-habilidad"
           >
             <img
               src={habilidad.icono}

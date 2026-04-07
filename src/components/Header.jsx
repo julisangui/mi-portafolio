@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import { IoIosMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
+
 
 const Header = () => {
 
@@ -33,7 +36,7 @@ const Header = () => {
 
   return (
     <>
-      <button id="abrir" className="abrir-menu" onClick={abrirCerrarMenu}><i className="bi bi-list"></i></button>
+      <button id="abrir" className="abrir-menu" onClick={abrirCerrarMenu}><IoIosMenu className="IoIosMenu"/></button>
       
       {/* Se cargan los estados en el navbar */}
 
@@ -42,11 +45,12 @@ const Header = () => {
         ${navbarEstatico ? "con-background" : "sin-background"}`
       }>
 
-        <button className="cerrar-menu" id="cerrar" onClick={abrirCerrarMenu}><i className="bi bi-x"></i></button>
+        <button className="cerrar-menu" id="cerrar" onClick={abrirCerrarMenu}><IoClose className="IoClose"/></button>
         <a href="#Inicio" className="menu" onClick={clickEnlace}>Inicio</a>
+        <a href="#Trayectoria" className="menu" onClick={clickEnlace}>Trayectoria</a>
         <a href="#Habilidades" className="menu" onClick={clickEnlace}>Habilidades</a>
         <a href="#Proyectos" className="menu" onClick={clickEnlace}>Proyectos</a>
-        <a href="#Footer" className="menu" onClick={clickEnlace}>Footer</a>
+        <a href="#Contacto" className="menu" onClick={clickEnlace}>Contacto</a>
       </nav>
     </>
   );

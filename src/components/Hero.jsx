@@ -1,21 +1,18 @@
+import { FiDownload } from "react-icons/fi";
+
 const Hero = () => {
   return (
     <>
       <div className="hero" id="Inicio">
-        <h1 className="nombre">Julian Sanguineti</h1>
-        <h3 className="cargo">Desarrollador Full-Stack</h3>
+        <h1 className="cargo">Desarrollador Full-Stack & Diseñador UX/UI</h1>
         <p className="presentacion">
-          Soy un desarrollador web/móvil Full-Stack con especial interés en el Front-End. Cuento con dos años de experiencia en proyectos personales y 
-          colaborativos, donde participé en el desarrollo de aplicaciones y sistemas con interfaces interactivas. Actualmente busco seguir creciendo 
+          ¡Hola! soy <strong className="nombre">Julian Sanguineti</strong>, soy un diseñador UX/ UI y desarrollador full-stack
+          con enfoque en el front-end y un especial interés en ciberseguridad, inteligencia artificial y otros campos de la tecnología.
+          Cuento con dos años de experiencia en proyectos personales y colaborativos en programación web, donde participé en el
+          desarrollo de aplicaciones y sistemas que cumplan con los estandares UX/ UI. Actualmente busco seguir creciendo
           profesionalmente y contribuir al desarrollo de productos digitales innovadores.
         </p>
-        <a
-          href="/mi-portafolio/Curriculo.pdf"
-          className="boton-cv"
-          download="Curriculo.pdf"
-        >
-          Descargar CV<i className="bi bi-download"></i>
-        </a>
+        <a href="/mi-portafolio/Curriculo.pdf" className="boton-cv" download="Curriculo.pdf">Descargar CV<FiDownload className="download"/></a>
       </div>
     </>
   );

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter";
 }
 
 html {
@@ -10,9 +13,9 @@ html {
 }
 
 body {
-    background: radial-gradient(circle, rgb(30, 30, 30) 25%, rgba(0, 0, 0, 1) 75%);
+    background: #0C0C0C;
     background-attachment: fixed;
-    --sb-track-color: #232E33;
+    --sb-track-color: #1c1c1c;
     --sb-thumb-color: #00ff6a;
     --sb-size: 10px;
     overflow-x: hidden;

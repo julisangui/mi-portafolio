@@ -5,19 +5,20 @@
     align-items: center;
     margin: 0 auto;
     gap: 25px;
-    color: #f0f8ff;
+    color: aliceblue;
     text-align: center;
     min-height: 100vh;
-    padding-top: 35px;
+    padding-top: 80px;
 }
 
-.nombre {
-    background: linear-gradient(150deg, rgb(0, 255, 106) 20%, rgb(0, 255, 255) 60%);
+.cargo {
+    background: linear-gradient(70deg, aliceblue 50%, #1c1c1c 95%);
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 1.875rem;
+    font-size: 3rem;
+    width: 70%;
     font-weight: bold;
     text-transform: uppercase;
     margin-block-start: 0px;
@@ -28,68 +29,61 @@
     animation-delay: 0.5s;
 }
 
-.cargo {
-    text-transform: uppercase;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    transform: translateY(-30px);
+.nombre {
+    color: #00ff6a;
+    font-weight: 600;
+}
+
+.presentacion {
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 300;
+    transform: translateY(30px);
     opacity: 0;
+    width: 70%;
     animation: slideInFromRight 1s ease-out forwards;
     animation-delay: 1s;
 }
 
-.presentacion {
-    font-size: .9375rem;
-    font-weight: 100;
-    transform: translateY(30px);
-    opacity: 0;
-    width: 55%;
-    animation: slideInFromLeft 1s ease-out forwards;
-    animation-delay: 1.5s;
-}
-
 .boton-cv {
-    background: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #1c1c1c;
     color: aliceblue;
     text-decoration: none;
-    font-size: .9375rem;
-    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px;
     border: none;
-    border: 1px solid aliceblue;
-    border-radius: 25px;
+    border: 1px solid #808080;
+    border-radius: 50px;
     transition: 0.5s;
     transform: scale(0);
     opacity: 0;
     animation: zoomIn 1s ease-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 
 .boton-cv:hover {
     color: #010101;
-    background-color: #00ffff;
-    box-shadow: 0 0 20px #00ffff, 0 0 20px #00ffff, 0 0 20px #00ffff;
+    background-color: #00ff6a;
+    border: 1px solid #00ff6a;
 }
 
-.bi.bi-download {
-    font-size: .9375rem;
-    background: transparent;
-    margin-left: 10px;
+.download {
+    font-size: 1.2rem;
 }
 
 @media (max-width: 500px) {
 
     .hero {
-        padding-top: 10px;
-    }
-
-    .nombre {
-        font-size: 1.5625rem;
+        padding-top: 100px;
     }
 
     .cargo {
-        font-size: .9375rem;
+        font-size: 2rem;
+        width: 90%;
     }
 
     .presentacion {

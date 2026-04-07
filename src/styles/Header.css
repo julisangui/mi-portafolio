@@ -1,10 +1,10 @@
 .barra-navegacion {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 15px 25px;
     margin-top: 35px;
     width: 70%;
     margin: 0 auto;
@@ -14,15 +14,16 @@
     left: 0;
     right: 0;
     z-index: 100;
+    border: 1px solid transparent;
     transition: background-color 0.5s;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
 .menu {
     text-align: center;
-    margin: 0 auto;
-    color: rgb(100, 100, 100);
-    font-size: 0.9375rem;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 200;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -41,48 +42,45 @@
     border: none;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 620px) {
     .barra-navegacion.sin-background {
         background-color: transparent;
     }
 
     .barra-navegacion.con-background {
-        background-color: rgb(40, 40, 40);
+        background-color: #1c1c1c;
+        border: 1px solid #808080;
         color: aliceblue;
+        transition: 0.5s;
     }
 }
 
-@media (max-width: 500px) {
-
-    .bi.bi-list {
-        display: block;
-        margin-top: 3.125rem;
-    }
-
-    .bi-list::before {
-        background-color: rgb(40, 40, 40);
-        padding: 15px;
-        border-radius: 50%;
-    }
-
-    .bi.bi-x::before {
-        background-color: rgb(10, 10, 10);
-        border-radius: 50%;
-        padding: 5px;
-    }
+@media (max-width: 620px) {
 
     .abrir-menu {
-        display: block;
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
-        z-index: 5;
-        opacity: 0;
-        animation: fadeIn 1s ease-in-out forwards;
+        width: 40px;
+        height: 40px;
+        background-color: #505050;
+        border-radius: 50%;
+        border: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        transform: translateX(-50%);
+        z-index: 1;
+        cursor: pointer;
     }
 
+    .IoIosMenu {
+        border-radius: 50%;
+        color: aliceblue;
+        font-size: 1.875rem;
+    }
+    
     .cerrar-menu {
         display: block;
         position: absolute;
@@ -96,8 +94,14 @@
         cursor: pointer;
     }
 
+    .Ioclose {
+        background-color: #0C0C0C;
+        border-radius: 50%;
+        font-size: 2rem;
+    }
+
     .barra-navegacion {
-        background-color: rgb(30, 30, 30);
+        background-color: #0C0C0C;
         position: fixed;
         top: 0;
         right: 0;
@@ -107,7 +111,7 @@
         height: 100vh;
         border-radius: 0;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         padding: 30px;
         gap: 25px;
