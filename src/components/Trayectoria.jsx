@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const data = {
   educacion: [
@@ -42,23 +44,29 @@ const data = {
 };
 
 const Trayectoria = () => {
+  useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: true,
+        easing: "ease-out",
+      });
+    }, []);
+
   const [opcion, setopcion] = useState("educacion");
 
   return (
     <>
-      <h2 className="trayectoria-titulo" id="Trayectoria">Trayectoria</h2>
-      <p className="trayectoria-subtitulo">
-        Mi trayectoria de aprendizaje continuo y desarrollo profesional.
-      </p>
+      <h2 data-aos="fade-left" data-aos-offset="300" className="trayectoria-titulo" id="Trayectoria">Trayectoria</h2>
+      <p data-aos="fade-right" data-aos-offset="300" className="trayectoria-subtitulo">Mi trayectoria de aprendizaje continuo y desarrollo profesional.</p>
 
-      <div className="trayectoria-opciones">
+      <div data-aos="zoom-in" data-aos-offset="300" className="trayectoria-opciones">
         <button onClick={() => setopcion("educacion")} className={`trayectoria-opcion ${opcion === "educacion" ? "activo" : ""}`}> Educación </button>
         <button onClick={() => setopcion("experiencia")} className={`trayectoria-opcion ${opcion === "experiencia" ? "activo" : ""}`}> Experiencia laboral </button>
       </div>
 
       <div className="trayectoria-lista">
         {data[opcion].map((item, index) => (
-          <div key={index} className="tarjeta-trayectoria">
+          <div data-aos="zoom-in-down" data-aos-offset="10" key={index} className="tarjeta-trayectoria">
             <div className="tarjeta-trayectoria-header">
                 <h3 className="tarjeta-trayectoria-titulo">{item.titulo}</h3>
                 <span className={`tarjeta-trayectoria-estado ${item.estado === "Graduado" ? "graduado" : "curso"}`}>
@@ -68,9 +76,17 @@ const Trayectoria = () => {
             <p className="tarjeta-trayectoria-lugar">{item.lugar}</p>
             <p className="tarjeta-trayectoria-fecha">{item.fecha}</p>
             <div className="tarjeta-trayectoria-items">
-              {item.items.map((item, i) => (
-                <span key={i} className="item">{item}</span>
-              ))}
+              {opcion === "experiencia" ? (
+                <ul>
+                  {item.items.map((it, i) => (
+                    <li key={i}>{it}</li>
+                  ))}
+                </ul>
+              ) : (
+                item.items.map((it, i) => (
+                  <span key={i} className="item">{it}</span>
+                ))
+              )}
             </div>
           </div>
         ))}

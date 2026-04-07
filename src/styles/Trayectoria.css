@@ -11,6 +11,7 @@
     color: #808080;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .trayectoria-opciones {
@@ -29,6 +30,7 @@
     cursor: pointer;
     transition: 0.5s;
     font-size: 1rem;
+    font-weight: 300;
 }
 
 .trayectoria-opcion:hover {
@@ -47,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     gap: 35px;
+    margin-bottom: 50px;
 }
 
 .tarjeta-trayectoria {
@@ -75,14 +78,17 @@
 .tarjeta-trayectoria-titulo {
     color: #f0f8ff;
     font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .tarjeta-trayectoria-estado.graduado {
   color: #00ff64;
+  font-weight: 300;
 }
 
 .tarjeta-trayectoria-estado.curso {
-  color: #808080
+  color: #808080;
+  font-weight: 300;
 }
 
 .tarjeta-trayectoria-items {
@@ -94,18 +100,41 @@
 .tarjeta-trayectoria-lugar {
     color: #f0f8ff;
     font-size: .875rem;
+    font-weight: 300;
 }
 
 .tarjeta-trayectoria-fecha {
     color: #808080;
     font-size: .75rem;
+    font-weight: 300;
 }
 
 .item {
     border: 1px solid #808080;
     border-radius: 25px;
     font-size: .75rem;
+    font-weight: 300;
     padding: 2px 10px;
+}
+
+.tarjeta-trayectoria-items ul {
+  list-style: none;
+  margin-top: 10px;
+  font-size: .875rem;
+  font-weight: 300;
+}
+
+.tarjeta-trayectoria-items li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  color: #808080;
+}
+
+.tarjeta-trayectoria-items li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
 }
 
 @media (max-width: 768px) {

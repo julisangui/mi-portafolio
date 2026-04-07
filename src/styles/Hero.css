@@ -53,9 +53,8 @@
     color: aliceblue;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     padding: 15px;
-    border: none;
     border: 1px solid #808080;
     border-radius: 50px;
     transition: 0.5s;
