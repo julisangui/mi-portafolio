@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero" id="Inicio">
-        <h1 className="cargo">Diseñador & desarrollador UX/UI, Tester y soporte IT</h1>
+        <h1 className="cargo">Diseñador & desarrollador UX/UI, Tester y soporte TI</h1>
         <p className="presentacion">
           ¡Hola! soy <strong className="nombre">Julian Sanguineti</strong>, Soy un técnico en informática,
           diseñador UX/UI y desarrollador Front-End con bases sólidas en Testing manual y automatizado y un
