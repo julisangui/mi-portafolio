@@ -7,11 +7,10 @@ import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
 import SCSS from "../assets/SCSS.png";
 import JavaScript from "../assets/JavaScript.png";
-import TypeScript from "../assets/TypeScript.png";
 import React from "../assets/React.png";
-import Nextjs from "../assets/Next-js.png";
 import Python from "../assets/Python.png";
 import Express from "../assets/express-js.png";
+import Cypress from "../assets/Cypress.png";
 import MySql from "../assets/MySql.png";
 import Git from "../assets/Git.png";
 
@@ -21,28 +20,25 @@ const habilidades = [
   { nombre: "CSS", nivel: "Avanzado", icono: CSS },
   { nombre: "Sass/SCSS", nivel: "Avanzado", icono: SCSS },
   { nombre: "JavaScript", nivel: "Avanzado", icono: JavaScript },
-  { nombre: "TypeScript", nivel: "Intermedio", icono: TypeScript },
   { nombre: "React", nivel: "Intermedio", icono: React },
-  { nombre: "Next.js", nivel: "Intermedio", icono: Nextjs },
-  { nombre: "React Native", nivel: "Intermedio", icono: React },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
   { nombre: "Express.js", nivel: "Básico", icono: Express },
   { nombre: "MySql", nivel: "Avanzado", icono: MySql },
+  { nombre: "Cypress", nivel: "Intermedio", icono: Cypress },
   { nombre: "Git", nivel: "Avanzado", icono: Git },
 ];
 
 const habilidadesBlandas = [
 "Inglés (intermedio)",
-"Desarrollo web/móvil",
 "Diseño UX/UI",
-"Pruebas de software (QA Testing)",
+"Desarrollo web",
+"Testing manual/automatizado",
+"Soporte técnico",
 "Microsoft Office",
 "Documentación técnica",
-"Servicio técnico",
-"Metodologías ágiles (Scrum, Kanban)",
 "Trabajo en equipo y comunicación",
 "Creatividad e innovación",
-"Proactividad y autodesarrollo continuo"
+"Proactividad y autodesarrollo"
 ];
 
 const Habilidades = () => {
