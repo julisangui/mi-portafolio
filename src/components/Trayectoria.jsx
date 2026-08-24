@@ -8,7 +8,7 @@ const data = {
       titulo: "Diplomatura en diseño UX/UI",
       lugar: "Centro de E-Learning UTN",
       fecha: "Octubre 2025 - Abril 2026",
-      estado: "En curso",
+      estado: "Graduado",
       items: ["Investigación de usuarios", "Fidelización", "Prototipado", "Design system", "Motion UI", "Componentes inteligentes"],
     },
     {
