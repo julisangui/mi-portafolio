@@ -4,12 +4,12 @@ const Hero = () => {
   return (
     <>
       <div className="hero" id="Inicio">
-        <h1 className="cargo">Diseñador & desarrollador UX/UI, Tester y soporte TI</h1>
+        <h1 className="cargo">Diseñador UX/UI · Desarrollador UI · QA Tester</h1>
         <p className="presentacion">
-          ¡Hola! soy <strong className="nombre">Julian Sanguineti</strong>, Soy un técnico en informática,
-          diseñador UX/UI y desarrollador Front-End con bases sólidas en Testing manual y automatizado y un
-          interés especial por la tecnología en general; actualmente trabajo como soporte técnico mientras
-          exploro nuevas oportunidades profesionales en el campo del TI.
+          ¡Hola! Soy <strong className="nombre">Julian Sanguineti</strong>. Soy un técnico en informática,
+          diseñador UX/UI, desarrollador Front-End, y un QA tester (manual y automatizado), con
+          experiencia previa en soporte técnico de nivel 1 y una gran pasión por la tecnología. Busco dar mis
+          primeros pasos profesionales sumándome a un equipo de TI donde pueda aportar valor y seguir creciendo.
         </p>
         <a href="/mi-portafolio/Curriculo.docx" className="boton-cv" download="Curriculo.docx">Descargar CV<FiDownload className="download"/></a>
       </div>

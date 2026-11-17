@@ -9,7 +9,6 @@ import SCSS from "../assets/SCSS.png";
 import JavaScript from "../assets/JavaScript.png";
 import React from "../assets/React.png";
 import Python from "../assets/Python.png";
-import Express from "../assets/express-js.png";
 import Cypress from "../assets/Cypress.png";
 import MySql from "../assets/MySql.png";
 import Git from "../assets/Git.png";
@@ -22,18 +21,17 @@ const habilidades = [
   { nombre: "JavaScript", nivel: "Avanzado", icono: JavaScript },
   { nombre: "React", nivel: "Intermedio", icono: React },
   { nombre: "Python", nivel: "Intermedio", icono: Python },
-  { nombre: "Express.js", nivel: "Básico", icono: Express },
   { nombre: "MySql", nivel: "Avanzado", icono: MySql },
-  { nombre: "Cypress", nivel: "Intermedio", icono: Cypress },
-  { nombre: "Git", nivel: "Avanzado", icono: Git },
+  { nombre: "Cypress.js", nivel: "Intermedio", icono: Cypress },
+  { nombre: "Git", nivel: "Intermedio", icono: Git },
 ];
 
 const habilidadesBlandas = [
-"Inglés (intermedio)",
 "Diseño UX/UI",
-"Desarrollo web",
+"Desarrollo UI",
 "Testing manual/automatizado",
-"Soporte técnico",
+"Soporte técnico Nivel 1",
+"Inglés B1/B2 (intermedio)",
 "Microsoft Office",
 "Documentación técnica",
 "Trabajo en equipo y comunicación",
@@ -53,7 +51,7 @@ const Habilidades = () => {
   return (
     <div className="contenedor-habilidades" id="Habilidades">
       <h2
-        data-aos="fade-right"
+        data-aos="zoom-in"
         data-aos-offset="150"
         className="titulo-habilidades"
       >

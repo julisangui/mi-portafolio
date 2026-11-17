@@ -17,7 +17,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 3rem;
+    font-size: 3.2rem;
     width: 70%;
     font-weight: bold;
     text-transform: uppercase;
@@ -38,6 +38,7 @@
     color: #808080;
     font-size: 1rem;
     font-weight: 300;
+    line-height: 1.5625rem;
     transform: translateY(30px);
     opacity: 0;
     width: 70%;
